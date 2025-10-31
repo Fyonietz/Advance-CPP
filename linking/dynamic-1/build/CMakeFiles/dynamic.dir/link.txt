@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/dynamic.dir/link.d CMakeFiles/dynamic.dir/main.cpp.o -o /home/fyonietz/Repo/Advance-CPP/linking/dynamic-1/dynamic

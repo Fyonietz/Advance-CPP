@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/fyonietz/Repo/Advance-CPP/linking/dynamic-1/build/cmake_install.cmake",
+		"/home/fyonietz/Repo/Advance-CPP/linking/dynamic-1/build/libs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

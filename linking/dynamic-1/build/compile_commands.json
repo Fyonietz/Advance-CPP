@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/fyonietz/Repo/Advance-CPP/linking/dynamic-1/build",
+  "command": "/usr/bin/c++  -I/home/fyonietz/Repo/Advance-CPP/linking/dynamic-1/libs  -o CMakeFiles/dynamic.dir/main.cpp.o -c /home/fyonietz/Repo/Advance-CPP/linking/dynamic-1/main.cpp",
+  "file": "/home/fyonietz/Repo/Advance-CPP/linking/dynamic-1/main.cpp",
+  "output": "CMakeFiles/dynamic.dir/main.cpp.o"
+},
+{
+  "directory": "/home/fyonietz/Repo/Advance-CPP/linking/dynamic-1/build/libs",
+  "command": "/usr/bin/c++ -Dlibs_EXPORTS  -fPIC -o CMakeFiles/libs.dir/libs.cpp.o -c /home/fyonietz/Repo/Advance-CPP/linking/dynamic-1/libs/libs.cpp",
+  "file": "/home/fyonietz/Repo/Advance-CPP/linking/dynamic-1/libs/libs.cpp",
+  "output": "libs/CMakeFiles/libs.dir/libs.cpp.o"
+}
+]
