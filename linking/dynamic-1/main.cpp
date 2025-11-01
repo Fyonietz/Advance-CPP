@@ -9,12 +9,12 @@ typedef void (*setter_t)(Pool *);
 int loader() {
   void *handle = dlopen("./libdynamic.so", RTLD_LAZY);
   if (!handle) {
-    std::cerr << "Failed To Open library" << std::endl;
+    std::cerr << "failed to open library" << std::endl;
     return 1;
   }
   dlerror();
 
-  setter_t setter_func = (setter_t)dlsym(handle, "setter");
+  setter_t trigger_setter = (setter_t)dlsym(handle, "setter");
   const char *error = dlerror();
   if (error) {
     std::cerr << "Error Loading Function" << error << std::endl;
@@ -23,8 +23,9 @@ int loader() {
   }
   std::cout << "From Library" << std::endl;
   Pool p;
-  setter_func(&p);
+  trigger_setter(&p);
   std::cout << "From file_data(): " << p.d_file_data << std::endl;
+  std::cout << "From unordered_map(): " << p.d_u_m["Hellow"] << std::endl;
   dlclose(handle);
   return 0;
 }

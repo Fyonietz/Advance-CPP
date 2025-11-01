@@ -1,1 +1,37 @@
 build/
+
+# Ignore the build directory in the 'linking' subdirectory only
+linking/build/
+
+# Keep any other build directories if they exist elsewhere
+!*/build/
+
+# Build output
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+Makefile
+*.o
+*.a
+*.so
+*.out
+
+# CMake temporary files
+*.cmake
+CMakeLists.txt.user
+
+# IDE or Editor files
+/.vscode/
+/.idea/
+/*.swp
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Log and core dumps
+*.log
+*.core
