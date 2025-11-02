@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/fyonietz/Repo/Advance-CPP/multithreading/build",
+  "command": "/usr/bin/c++    -o CMakeFiles/MultiThread.dir/main.cpp.o -c /home/fyonietz/Repo/Advance-CPP/multithreading/main.cpp",
+  "file": "/home/fyonietz/Repo/Advance-CPP/multithreading/main.cpp",
+  "output": "CMakeFiles/MultiThread.dir/main.cpp.o"
+}
+]

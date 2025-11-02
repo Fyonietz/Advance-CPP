@@ -24,8 +24,8 @@ int loader() {
   std::cout << "From Library" << std::endl;
   Pool p;
   trigger_setter(&p);
-  std::cout << "From file_data(): " << p.d_file_data << std::endl;
   std::cout << "From unordered_map(): " << p.d_u_m["Hellow"] << std::endl;
+  std::cout << "From file_data(): " << p.d_file_data << std::endl;
   dlclose(handle);
   return 0;
 }
@@ -35,3 +35,5 @@ int main() {
   std::cout << "Work Lee" << std::endl;
   return 0;
 }
+
+
